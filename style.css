@@ -1,0 +1,338 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: cursive;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/cubana.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals{
+    background-image: url('images/background720.jfif');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*============= HEADER =============*/
+
+.header{
+    background-color: darkkhaki;
+    
+    width: 100%;
+    height: 80px;
+    top: 0;
+    
+    position: absolute;
+    overflow: hidden;
+    
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: azure;
+}
+
+.header img{
+    width: 90px;
+    height: 70px;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+/*============= HOME PAGE =============*/
+
+#home-logo-img{
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding: 20px 10px 10px 10px;
+}
+
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+/*===== HOME PAGE MENU =====*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: darkcyan;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid cadetblue;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*============= MEALS PAGE =============*/
+
+#meals{
+    padding-top: 80px;
+}
+
+/*===== MEALS PAGE MENU =====*/
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid white;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+    padding-left: 10px;
+}
+
+.meals-list-item i{
+    float: right;
+    color: azure;
+    padding-right: 15px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: aliceblue;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*============= RECIPE PAGE =============*/
+
+#recipe{
+    padding-top: 50px;
+}
+
+/*===== RECIPE DETAILS =====*/
+
+.recipe-details img{
+    padding-top: 80px;
+    width: 100%;
+}
+
+.recipe-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid azure;
+    margin: 10px;
+    padding: 5px;
+    color: azure;
+}
+
+.recipe-details h2{
+    text-decoration: cursive;
+    color: burlywood;
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details-info{
+    color: darkgoldenrod;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p{
+    color: burlywood;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.recipe-details-ingredients label{
+    color: burlywood;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.recipe-details-steps{
+    padding-top: 20px;
+}
+
+.recipe-details-steps ol{
+    padding-left: 28px;
+}
+
+/*================ INFO BOX ===============*/
+
+a.info-box{
+    text-decoration : none;
+      background      : rgba(200, 200, 200, .8);
+      width           : 90%;
+      height          : 90px;
+      display         : block;
+      margin          : auto;
+      margin-top      : 12px;
+      padding         : 1px; 
+}
+
+.info-box img{
+      height : 70px;
+      margin : 10px;
+      float  : left;
+}
+
+.info-box h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : #572800;
+}
+
+.info-box p{
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color   : 131313;
+}
+
+.info-box img.right{
+      float      : right;
+      margin-top : 25px;
+      height     : 40px; 
+}
+
+/*================ INFO BOX FULL ===============*/
+
+#info-box-full{
+      background-color : rgba(200, 200, 200, .8);
+      width   : 90%;
+      display : block;
+      margin  : auto;
+      margin-top : 12px;
+      padding    : 10px;
+}
+
+#info-box-full img{
+      width : 100%;
+}
+
+#info-box-full h3{
+      text-align : center;
+}
+
+/*================ FORM ===============*/
+
+
+textarea{
+      width: 100%;
+      height :25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+.button{
+      display : block;
+      background-color: darkcyan;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin : 12px 0;
+      padding : 8px 0;
+}
+
+/*============ BOTTOM TABS ============*/
+
+#tabs-bottom{
+      position : absolute;
+      bottom   : 0;
+      left     : 0;
+      z-index  : 500;
+      width    : 100%;
+      height   : 40px;
+      background-color: darkcyan;
+}
+
+#tabs-bottom a{
+     display : block;
+     width : 50%;
+     height : 40px;
+     font-weight : 700;
+     color       : white;
+     text-align  : right;
+     text-decoration : none;
+     padding-top     : none;
+}
+
+/*============= RESPONSIVE LAYOUT =============*/
+
+@media only screen and (min-width: 1000px){
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 720px){
+    .body-home{
+        background-image: url('images/cubana.jpg');
+    }
+    
+    .body-meals{
+        background-image: url('images/background1280.jpg');
+    }
+}
+
+
